@@ -77,6 +77,21 @@ nav{
     
 }
 
+nav label{
+    font-size: 32px;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav .menu-btn,
+nav .close-btn{
+    display: none;
+}
+
+#click{
+    display: none;
+}
+
 nav .nav-logo a{
     display: flex;
     align-items: center;
@@ -170,9 +185,61 @@ nav ul li a{
 
 /* media responsive */
 @media only screen and (max-width: 768px){
+
+    nav{
+       padding: 0 24px;
+        
+    }
+
+    nav .menu-btn{
+        display: block;
+    }
+    
+    nav ul{
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        text-align: center;
+        transition: all 0.8s ease-in-out;
+    }
+
+    #click:checked ~ ul{
+        left: 0;
+    }
+
+    #click:checked ~ label .close-btn{
+        display: block;
+    }
+
+    #click:checked ~ label .menu-btn{
+        display: none;
+    }
+
+    nav ul li{
+        display: block;
+        padding: 8px 12px;
+        width: 20%;
+        margin: 24px auto;
+    }
+
+    nav ul li a{
+        color: #1b1b1b;
+    }
+
+
     .hero-section{
         width: 100%;
         height: 100%;
+        padding-top: 50px;
+        
+    }
+
+    .Button{
+        font-size: 16px;
         
     }
 
