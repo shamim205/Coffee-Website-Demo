@@ -172,6 +172,8 @@ nav ul li a{
 @media only screen and (max-width: 768px){
     .hero-section{
         width: 100%;
+        margin-top: 0;
+        
     }
 
     .sectoin-container{
