@@ -164,3 +164,31 @@ nav ul li a{
 .hero-container .img-section img{
     width: 100%;
 }
+
+
+
+
+/* media responsive */
+@media only screen and (max-width: 768px){
+    .hero-section{
+        width: 100%;
+    }
+
+    .sectoin-container{
+        padding: 0 5%;
+    }
+
+    .hero-section .hero-container{
+        flex-direction: column;
+    }
+
+    .hero-section .hero-container .text-section{
+        max-width: 100%;
+    }
+
+    .hero-container .img-section{
+        max-width: 100%;
+    }
+
+   
+}
