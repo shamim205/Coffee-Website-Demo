@@ -149,7 +149,6 @@ nav ul li a{
 /* hero section */
 
 .hero-section{
-    padding-top: 100px;
     margin-top: 100px;
     height: calc(100vh - 100px);
     background-color: #3d141c;
@@ -160,6 +159,7 @@ nav ul li a{
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    height: calc(100vh - 100px);
     align-items: center;
 }
 
@@ -232,13 +232,49 @@ nav ul li a{
 
 .about-con .image-section{
     max-width: 45%;
+    
 }
 .about-con .image-section img{
     width: 100%;
 }
 
+/* Services Section */
+.Services{
+    background: #252525;
+    color: #fff;
+    padding: 52px 0;
 
+}
+.Services .Services-con{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+    flex-wrap: wrap;
 
+}
+
+.Services-con .Services-item{
+    text-align: center;
+}
+
+.Services-item .Services-text h3{
+    margin: 12px 0;
+}
+
+.Services-item .Services-text p{
+    font-size: 16px;
+    font-family: 500;
+    line-height: 1.4em;
+}
+
+.Services-con .Services-item img{
+    width: 100%;
+    
+}
+.Services-con .Services-item{
+    width: calc(100% / 3 - 32px);
+}
 
 
 
