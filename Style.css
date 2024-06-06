@@ -37,6 +37,25 @@ ul li{
     margin: 0 auto;
 }
 
+.section-title{
+    text-align: center;
+    padding: 32px 0;
+    font-size: 32px;
+    font-family: "Righteous", sans-serif;
+    text-transform: uppercase;
+}
+
+.section-title::after{
+    content: '';
+    width: 80px;
+    background: var(--secondary-color);
+    height: 5px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+
+}
+
 .Button{
     padding: 8px 28px;
     border: 3px solid transparent;
@@ -181,14 +200,42 @@ nav ul li a{
     width: 100%;
 }
 
+/*---- About Us section---------- */
+
+.About-Us{
+    padding: 52px 0;
+    background: #d1d1d1;
+
+}
+
+.about-con{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+
+}
+.about-con .text-section{
+    max-width: 50%;
 
 
+}
+.about-con .text-section p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
 
 
+}
 
-
-
-
+.about-con .image-section{
+    max-width: 45%;
+}
+.about-con .image-section img{
+    width: 100%;
+}
 
 
 
