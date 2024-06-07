@@ -275,6 +275,15 @@ nav ul li a{
     width: calc(100% / 3 - 32px);
 } 
 
+.Services-item .Services-text h3{
+    margin: 12px 0;
+}
+
+.Services-item .Services-text p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
 
 
 
